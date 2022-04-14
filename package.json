@@ -1,0 +1,19 @@
+{
+  "name": "masters-experiments",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "vite --port 3001",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "sass": "^1.50.0",
+    "vite": "^2.9.5"
+  },
+  "dependencies": {
+    "jquery": "^3.6.0",
+    "p5": "^1.4.1",
+    "slick-carousel": "^1.8.1"
+  }
+}
