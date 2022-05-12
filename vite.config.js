@@ -2,13 +2,12 @@ const { resolve } = require("path");
 const { defineConfig } = require("vite");
 
 module.exports = defineConfig({
-  base: "/masters/",
   build: {
     rollupOptions: {
       input: {
         main: resolve(__dirname, "index.html"),
         horizontal: resolve(__dirname, "projects/horizontal-snapping/index.html"),
-        loops: resolve(__dirname, "projects/loops/index.html"),
+        // loops: resolve(__dirname, "projects/loops/index.html"),
       },
     },
     chunkSizeWarningLimit: 1000,
