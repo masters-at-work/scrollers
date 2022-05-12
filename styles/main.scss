@@ -3,17 +3,26 @@
 @use "scrollTrigger" as *;
 // @import "//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css";
 
-// ————————————————————————————————————o————————————————————————————————————o Munari Veil -->
-// ———————————————————————————————————— Munari Veil —>
+// ————————————————————————————————————o————————————————————————————————————o Masters at Work: RWW vs MR -->
+// ————————————————————————————————————o Masters at Work -->
+// ————————————————————————————————————o————————————————————————————————————o Masters at Work: RWW vs MR -->
 
+// ————————————————————————————————————o Color Schemimng -->
+// Color Scheming
+// Aspirin C: https://color.adobe.com/Aspirin-C-color-theme-20014665
+// 
+// 
+
+// ————————————————————————————————————o————————————————————————————————————o Meat and Potatos -->
+// ————————————————————————————————————o Meat and Potatos -->
 html {
     font-size: 16px;
 }
 
 body {
     margin: 0;
-    color: white;
-    background-color: rgba(0, 22, 51, 0.95);
+    color: #f2ffe3;
+    background-color: #225378;
 
     * {
         box-sizing: border-box;
@@ -25,5 +34,29 @@ img {
     width: 100%;
 }
 
-// ————————————————————————————————————o————————————————————————————————————o Better Breaks -->
-// ———————————————————————————————————— Better Breaks —>
+a {
+    padding-bottom: 2px;
+    color: #acf0f2;
+    text-decoration: none;
+    border-bottom: 1px solid #acf0f2;
+}
+
+// ————————————————————————————————————o————————————————————————————————————o Homepage -->
+// ————————————————————————————————————o Homepage -->
+
+.home {
+    margin: 10%;
+
+    h1 {
+        font-weight: 100;
+    }
+
+    .tagline {
+        font-weight: 300;
+        font-style: italic;
+    }
+
+    .hero {
+        margin-bottom: 50px;
+    }
+}

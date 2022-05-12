@@ -29,7 +29,13 @@
                 </div>
             </div>
 
-            <section class="panel red">ONE</section>
+            <section class="panel red video video--live-station">
+                <video width="320" height="240" controls>
+                    <source src="movie.mp4" type="video/mp4" />
+                    <source src="movie.ogg" type="video/ogg" />
+                    Your browser does not support the video tag.
+                </video>
+            </section>
             <section class="panel orange">TWO</section>
             <section class="panel purple">THREE</section>
             <section class="panel green">FOUR</section>
@@ -39,6 +45,6 @@
         <script type="module" src="../../main.js"></script>
         <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js?r=5426"></script>
         <script src="https://assets.codepen.io/16327/ScrollTrigger.min.js"></script>
-        <script src="./horizontalSnapping.js"></script>
+        <script type="module" src="./horizontalSnapping.js"></script>
     </body>
 </html>
