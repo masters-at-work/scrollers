@@ -7,7 +7,7 @@ module.exports = defineConfig({
     rollupOptions: {
       input: {
         main: resolve(__dirname, "index.html"),
-        breaks: resolve(__dirname, "projects/breaks/index.html"),
+        horizontal: resolve(__dirname, "projects/horizontal-snapping/index.html"),
         loops: resolve(__dirname, "projects/loops/index.html"),
       },
     },
