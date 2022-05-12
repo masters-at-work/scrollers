@@ -7,7 +7,7 @@ module.exports = defineConfig({
       input: {
         main: resolve(__dirname, "index.html"),
         horizontal: resolve(__dirname, "projects/horizontal-snapping/index.html"),
-        // loops: resolve(__dirname, "projects/loops/index.html"),
+        reveal: resolve(__dirname, "projects/reveal/index.html"),
       },
     },
     chunkSizeWarningLimit: 1000,

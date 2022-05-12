@@ -4,15 +4,11 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Better Breaks | Mechaneyes | Ray Weitzenberg</title>
-        <link
-            rel="stylesheet"
-            href="https://codepen.io/GreenSock/pen/7ba936b34824fefdccfe2c6d9f0b740b"
-        />
     </head>
     <body>
-        <main class="horizontal-snapping">
+        <main class="light-touch">
             <div class="container">
-                <div class="description panel black">
+                <section class="description panel black">
                     <img
                         class="bg-img-fit"
                         src="/images/theory-001.jpg"
@@ -32,7 +28,7 @@
                             <div class="down-arrow">⬇️</div>
                         </div>
                     </div>
-                </div>
+                </section>
 
                 <section class="panel red video video--live-station">
                     <!-- <video autoplay loop muted playsinline>
@@ -71,8 +67,9 @@
         </main>
 
         <script type="module" src="../../main.js"></script>
-        <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js?r=5426"></script>
-        <script src="https://assets.codepen.io/16327/ScrollTrigger.min.js"></script>
-        <script type="module" src="./horizontalSnapping.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/ScrollToPlugin.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/ScrollTrigger.min.js"></script>
+        <script type="module" src="./light-touch.js"></script>
     </body>
 </html>

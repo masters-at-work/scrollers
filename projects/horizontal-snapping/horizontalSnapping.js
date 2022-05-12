@@ -9,8 +9,6 @@ gsap.to(sections, {
         trigger: ".container",
         pin: true,
         scrub: 1,
-        // horizontal: true,x
-        // start: "left center",
         // snap documentation on greensock.com
         // https://greensock.com/docs/v3/Plugins/ScrollTrigger#:~:text=smoothing%20things%20out.-,snap,-Number%20%7C%20Array%20%7C%20Function
         snap: {
