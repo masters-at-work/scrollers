@@ -3,10 +3,10 @@ function animateFrom(elem, direction) {
     var x = 0,
         y = direction * 300;
     if (elem.classList.contains("gs_reveal_fromLeft")) {
-        x = -100;
+        x = -300;
         y = 0;
     } else if (elem.classList.contains("gs_reveal_fromRight")) {
-        x = 100;
+        x = 300;
         y = 0;
     }
     elem.style.transform = "translate(" + x + "px, " + y + "px)";

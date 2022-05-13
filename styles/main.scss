@@ -43,6 +43,37 @@ a {
     border-bottom: 1px solid #acf0f2;
 }
 
+.aspirin-one {
+    background-color: #ACF0F2;
+}
+
+.aspirin-two {
+    background-color: #EB7F00;
+}
+
+.aspirin-three {
+    background-color: #1595A3;
+}
+
+.aspirin-four {
+    background-color: #225378;
+}
+
+.aspirin-five {
+    background-color: #F2FFE3;
+}
+
+.bg-img-fit {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.4;
+}
+
+// ————————————————————————————————————o————————————————————————————————————o Header -->
 // ————————————————————————————————————o Header -->
 //
 header {
@@ -53,7 +84,7 @@ header {
     width: 100%;
     padding: 0;
     border-radius: 0;
-    background-color: #1595A3;
+    background-color: #1595a3;
 
     ul {
         display: flex;
@@ -64,7 +95,7 @@ header {
         // text-transform: uppercase;
 
         a {
-            color: #F2FFE3;
+            color: #f2ffe3;
         }
     }
 }
@@ -165,32 +196,23 @@ main {
 // ————————————————————————————————————o————————————————————————————————————o Light Touch -->
 // ————————————————————————————————————o Light Touch -->
 //
-
 .light-touch {
     .container {
         display: block;
         height: 100vh;
         width: 100%;
+        overflow-y: scroll;
+        scroll-snap-type: y mandatory;
     }
+
     .panel {
         width: 100vw;
         height: 100vh;
-        position: sticky;
-        top: 0;
+        scroll-snap-align: start;
 
         &.black {
             background-color: black;
         }
-    }
-
-    .bg-img-fit {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        opacity: 0.4;
     }
 
     .video {
@@ -210,14 +232,55 @@ main {
     .copy {
         position: absolute;
         color: white;
+        color: black;
 
         h1 {
             margin-bottom: 30px;
+        }
+
+        h3 {
+            color: black;
         }
 
         p {
             width: 80%;
             margin: auto;
         }
+    }
+}
+
+// ————————————————————————————————————o————————————————————————————————————o Infinite Scroll -->
+// ————————————————————————————————————o Infinite Scroll -->
+//
+.infinite {
+    width: 100vw;
+    overflow-x: hidden !important;
+
+    .container {
+        
+        height: 100vh;
+        transform: translate(0px, 0px);
+        left: 0px;
+        top: 0.001px;
+        margin: 0px;
+        max-width: 12600px;
+        width: 1500%;
+        padding: 0px;
+        box-sizing: border-box;
+        position: fixed;
+    }
+
+    .panel {
+        width: 100vw;
+        height: 100vh;
+        border-right: 1px solid white;
+    }
+
+    .section {
+        width: 100vw;
+        height: 100vh;
+        color: white;
+        // border-right: 1px solid white;
+        // background: blue;
     }
 }

@@ -12,9 +12,10 @@ class Header extends HTMLElement {
           <nav>
             <ul>
               <li><a href="../home/">home</a></li>
-              <li><a href="../horizontal-snapping/">horizontal snapping</a></li>
               <li><a href="../reveal/">reveal</a></li>
-              <!-- <li><a href="../light-touch/">light touch</a></li> -->
+              <li><a href="../light-touch/">light touch</a></li>
+              <li><a href="../infinite/">infinite</a></li>
+              <li><a href="../horizontal-snapping/">horizontal snapping</a></li>
             </ul>
           </nav>
         </header>

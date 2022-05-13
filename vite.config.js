@@ -9,6 +9,7 @@ module.exports = defineConfig({
         home: resolve(__dirname, "projects/home/index.html"),
         horizontal: resolve(__dirname, "projects/horizontal-snapping/index.html"),
         reveal: resolve(__dirname, "projects/reveal/index.html"),
+        infinite: resolve(__dirname, "projects/infinite/index.html"),
         lightTouch: resolve(__dirname, "projects/light-touch/index.html"),
       },
     },
