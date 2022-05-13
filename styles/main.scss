@@ -46,6 +46,7 @@ a {
 // ————————————————————————————————————o Header -->
 //
 header {
+    z-index: 1;
     position: fixed;
     top: 0;
     left: 0;
@@ -69,7 +70,7 @@ header {
 }
 
 main {
-    padding-top: 60px;
+    // padding-top: 60px;
 }
 
 // ————————————————————————————————————o————————————————————————————————————o Homepage -->
@@ -77,6 +78,7 @@ main {
 //
 .home {
     margin: 10%;
+    padding-top: 60px;
 
     section {
         margin-bottom: 50px;
@@ -102,21 +104,19 @@ main {
 // ————————————————————————————————————o Horizontal Snapping -->
 //
 .horizontal-snapping {
-    // section {
-    //     display: flex;
-    //     height: 100vh;
-    //     width: 100%;
-    // }
+    // padding: 0;
 
-    // .container {
-    //     height: 100vh;
-    // }
+    .container {
+        height: calc(100vh - 60px);
+        position: sticky;
+        top: 60px;
+    }
 
     .panel {
         width: 100vw;
-        height: 100vh;
+        height: calc(100vh - 60px);
         position: sticky;
-        top: 0;
+        top: 60px;
 
         &.black {
             background-color: black;

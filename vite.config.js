@@ -6,8 +6,10 @@ module.exports = defineConfig({
     rollupOptions: {
       input: {
         main: resolve(__dirname, "index.html"),
+        home: resolve(__dirname, "projects/home/index.html"),
         horizontal: resolve(__dirname, "projects/horizontal-snapping/index.html"),
         reveal: resolve(__dirname, "projects/reveal/index.html"),
+        lightTouch: resolve(__dirname, "projects/light-touch/index.html"),
       },
     },
     chunkSizeWarningLimit: 1000,
