@@ -44,15 +44,15 @@ a {
 }
 
 .aspirin-one {
-    background-color: #ACF0F2;
+    background-color: #acf0f2;
 }
 
 .aspirin-two {
-    background-color: #EB7F00;
+    background-color: #eb7f00;
 }
 
 .aspirin-three {
-    background-color: #1595A3;
+    background-color: #1595a3;
 }
 
 .aspirin-four {
@@ -60,7 +60,34 @@ a {
 }
 
 .aspirin-five {
-    background-color: #F2FFE3;
+    background-color: #f2ffe3;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.copy {
+    position: absolute;
+    color: white;
+    color: black;
+    text-align: center;
+
+    h1 {
+        margin-bottom: 30px;
+    }
+
+    h3 {
+        color: black;
+    }
+
+    p {
+        width: 80%;
+        margin: auto;
+    }
 }
 
 .bg-img-fit {
@@ -71,6 +98,29 @@ a {
     height: 100%;
     object-fit: cover;
     opacity: 0.4;
+}
+
+.scroll-down {
+    margin-top: 100px;
+    color: white;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 16px;
+    overflow: visible;
+
+    .down-arrow {
+        font-size: 2rem;
+    }
+}
+
+.scroll-down .arrow {
+    position: relative;
+    top: -4px;
+    margin: 0 auto;
+    width: 20px;
+    height: 20px;
+    background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj4KPHBhdGggZmlsbD0iYmxhY2siIGQ9Ik00ODMuMiwxOTIuMmMtMjAuNS0yMC41LTUzLjUtMjAuOC03My43LTAuNkwyNTcsMzQ0LjFMMTA0LjUsMTkxLjZjLTIwLjItMjAuMi01My4yLTE5LjktNzMuNywwLjYKCWMtMjAuNSwyMC41LTIwLjgsNTMuNS0wLjYsNzMuN2wxOTAsMTkwYzEwLjEsMTAuMSwyMy40LDE1LjEsMzYuOCwxNWMxMy4zLDAuMSwyNi43LTQuOSwzNi44LTE1bDE5MC0xOTAKCUM1MDMuOSwyNDUuNyw1MDMuNywyMTIuNyw0ODMuMiwxOTIuMnoiLz4KPC9zdmc+);
+    background-size: contain;
 }
 
 // ————————————————————————————————————o————————————————————————————————————o Header -->
@@ -136,6 +186,10 @@ main {
 //
 .horizontal-snapping {
     // padding: 0;
+
+    h3 {
+        color: white;
+    }
 
     .container {
         height: calc(100vh - 60px);
@@ -257,7 +311,6 @@ main {
     overflow-x: hidden !important;
 
     .container {
-        
         height: 100vh;
         transform: translate(0px, 0px);
         left: 0px;

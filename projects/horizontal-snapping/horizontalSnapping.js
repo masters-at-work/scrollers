@@ -14,8 +14,8 @@ gsap.to(sections, {
         snap: {
             snapTo: 1 / (sections.length - 1),
             duration: 0.2,
-            delay: 0, // wait 0.2 seconds from the last scroll event before doing the snapping
-            ease: "power1.inOut", // the ease of the snap animation ("power3" by default)
+            delay: 0.1, // wait 0.2 seconds from the last scroll event before doing the snapping
+            // ease: "power1.inOut",
         },
         end: "+=2500", // increased this to make the scrolling less sensitive
     },
