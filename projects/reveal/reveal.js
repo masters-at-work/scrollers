@@ -1,7 +1,7 @@
 function animateFrom(elem, direction) {
     direction = direction || 1;
     var x = 0,
-        y = direction * 100;
+        y = direction * 300;
     if (elem.classList.contains("gs_reveal_fromLeft")) {
         x = -100;
         y = 0;

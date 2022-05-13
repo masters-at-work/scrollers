@@ -43,6 +43,35 @@ a {
     border-bottom: 1px solid #acf0f2;
 }
 
+// ————————————————————————————————————o Header -->
+//
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0;
+    border-radius: 0;
+    background-color: #1595A3;
+
+    ul {
+        display: flex;
+        justify-content: center;
+        gap: 40px;
+        width: 100%;
+        list-style-type: none;
+        // text-transform: uppercase;
+
+        a {
+            color: #F2FFE3;
+        }
+    }
+}
+
+main {
+    padding-top: 60px;
+}
+
 // ————————————————————————————————————o————————————————————————————————————o Homepage -->
 // ————————————————————————————————————o Homepage -->
 //

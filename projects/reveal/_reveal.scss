@@ -1,6 +1,10 @@
 .reveal {
     padding: 0 10px;
 
+    h1 {
+        margin-bottom: 30px;
+    }
+
     .hero {
         display: flex;
         flex-direction: column;
@@ -64,14 +68,31 @@
         margin-left: 0;
     }
 
+    .ipsType_left,
+    .ipsType_right {
+        max-width: 500px;
+    }
+
+
     .feature {
         display: flex;
+        justify-content: center;
         align-items: center;
     }
 
     .card {
         margin-bottom: 30px;
         // overflow: hidden;
+
+        &--video {
+            aspect-ratio: 480 / 720;
+            overflow: hidden;
+
+            video {
+                object-fit: cover;
+                // object-position: center center;
+            }
+        }
     }
 
     .featured-image-container .card {
